@@ -1,0 +1,30 @@
+{
+  "name": "highland",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss public/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vshelnutt/highland.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vshelnutt/highland/issues"
+  },
+  "homepage": "https://github.com/vshelnutt/Urata#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.11",
+    "live-server": "^1.2.0",
+    "nodemailer": "^4.6.7"
+  }
+}
